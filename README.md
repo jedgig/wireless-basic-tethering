@@ -157,8 +157,8 @@ Compatible con:
 ### Paso 1: Clonar o descargar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/tethering-system.git
-cd tethering-system
+git clone https://github.com/jedgig/wireless-basic-tethering.git
+cd wireless-basic-tethering
 ```
 
 ### Paso 2: Instalar dependencias
@@ -173,21 +173,7 @@ Esto instalará automáticamente:
 - chokidar (monitoreo de archivos)
 - exifreader (extracción de metadatos)
 
-### Paso 3: Configurar las fuentes tipográficas
-
-Coloca los archivos de fuentes en la carpeta `public/`:
-
-```
-public/
-├── Aqum.ttf
-├── Friend-Bold.otf
-├── Friend-Light.otf
-└── Friend-Regular.otf
-```
-
-Estas fuentes son necesarias para el diseño de la interfaz. Si no las tienes, el sistema funcionará con fuentes del sistema pero con un aspecto diferente.
-
-### Paso 4: Verificar la instalación
+### Paso 3: Verificar la instalación
 
 ```bash
 node server.js
