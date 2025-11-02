@@ -11,7 +11,7 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 const PORT = process.env.PORT || 3000;
-const SHARED_FOLDER = path.join(__dirname, 'shared-folder/20251026');
+const SHARED_FOLDER = path.join(__dirname, 'shared-folder');
 
 if (!fs.existsSync(SHARED_FOLDER)) {
     fs.mkdirSync(SHARED_FOLDER, { recursive: true });
